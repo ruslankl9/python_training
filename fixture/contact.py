@@ -83,11 +83,13 @@ class ContactHelper(object):
 
     def open_contacts_page(self):
         wd = self.app.wd
-        wd.find_element_by_link_text("add new").click()
+        if not wd.current_url.endswith("/edit.php"):
+            wd.find_element_by_link_text("add new").click()
 
     def return_to_home_page(self):
         wd = self.app.wd
-        wd.find_element_by_link_text("home").click()
+        if not (wd.current_url.endswith("/addressbook/") or wd.current_url.endswith("/index.php")):
+            wd.find_element_by_link_text("home").click()
 
     def count(self):
         wd = self.app.wd
