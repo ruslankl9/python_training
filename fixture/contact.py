@@ -28,6 +28,7 @@ class ContactHelper(object):
         # submit contact form
         wd.find_element_by_xpath("//div[@id='content']/form/input[@type='submit']").click()
         self.return_to_home_page()
+        self.contact_cache = None
 
     def open_first_contact_edit_page(self):
         wd = self.app.wd
@@ -41,6 +42,7 @@ class ContactHelper(object):
         # submit contact form
         wd.find_element_by_xpath("//div[@id='content']/form/input[@type='submit']").click()
         self.return_to_home_page()
+        self.contact_cache = None
 
     def fill_contact_form(self, contact):
         wd = self.app.wd
@@ -81,6 +83,7 @@ class ContactHelper(object):
         wd.find_element_by_xpath("//input[@value='Delete']").click()
         wd.switch_to_alert().accept()
         self.return_to_home_page()
+        self.contact_cache = None
 
     def open_contacts_page(self):
         wd = self.app.wd
@@ -97,13 +100,16 @@ class ContactHelper(object):
         self.app.open_home_page()
         return len(wd.find_elements_by_name("selected[]"))
 
+    contact_cache = None
+
     def get_contact_list(self):
-        wd = self.app.wd
-        self.app.open_home_page()
-        contacts = []
-        for element in wd.find_elements_by_css_selector('tr[name="entry"]'):
-            id = element.find_element_by_name("selected[]").get_attribute("id")
-            last_name = element.find_elements_by_css_selector("td")[1].text
-            first_name = element.find_elements_by_css_selector("td")[2].text
-            contacts.append(Contact(id=id, first_name=first_name, last_name=last_name))
-        return contacts
+        if self.contact_cache is None:
+            wd = self.app.wd
+            self.app.open_home_page()
+            self.contact_cache = []
+            for element in wd.find_elements_by_css_selector('tr[name="entry"]'):
+                id = element.find_element_by_name("selected[]").get_attribute("id")
+                last_name = element.find_elements_by_css_selector("td")[1].text
+                first_name = element.find_elements_by_css_selector("td")[2].text
+                self.contact_cache.append(Contact(id=id, first_name=first_name, last_name=last_name))
+        return list(self.contact_cache)
