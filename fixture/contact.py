@@ -30,14 +30,17 @@ class ContactHelper(object):
         self.return_to_home_page()
         self.contact_cache = None
 
-    def open_first_contact_edit_page(self):
+    def open_contact_edit_page_by_index(self, index):
         wd = self.app.wd
         # click first group edit link
-        wd.find_element_by_xpath("//table//tr[2]//td[8]//a").click()
+        wd.find_element_by_xpath("//table//tr[{0}]//td[8]//a".format(index + 2)).click()
 
     def modify_first_contact(self, new_contact_data):
+        self.modify_contact_by_index(0, new_contact_data)
+
+    def modify_contact_by_index(self, index, new_contact_data):
         wd = self.app.wd
-        self.open_first_contact_edit_page()
+        self.open_contact_edit_page_by_index(index)
         self.fill_contact_form(new_contact_data)
         # submit contact form
         wd.find_element_by_xpath("//div[@id='content']/form/input[@type='submit']").click()
@@ -75,10 +78,13 @@ class ContactHelper(object):
         self.change_field_value("notes", contact.notes)
 
     def delete_first_contact(self):
+        self.delete_contact_by_index(0)
+
+    def delete_contact_by_index(self, index):
         wd = self.app.wd
         self.app.open_home_page()
         # select first contact
-        wd.find_element_by_name("selected[]").click()
+        wd.find_elements_by_name("selected[]")[index].click()
         # submit deletion
         wd.find_element_by_xpath("//input[@value='Delete']").click()
         wd.switch_to_alert().accept()
