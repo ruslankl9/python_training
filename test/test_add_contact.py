@@ -12,10 +12,10 @@ def test_add_contact(app):
         title="Boss",
         company="Google",
         address="Google str.12",
-        home_phone_number="+100395845732",
-        mobile_phone_number="+195684738592",
-        work_phone_number="+1783958438948",
-        fax_number="+1945842489348",
+        home_phone_number="+10395845732",
+        mobile_phone_number="+19568473859",
+        work_phone_number="+17839584389",
+        fax_number="+19458424893",
         email="address@email.com",
         email2="address2@email.com",
         email3="address3@email.com",
@@ -27,7 +27,7 @@ def test_add_contact(app):
         amonth="March",
         ayear=1975,
         address2="some secondary address",
-        phone_number2="+100193857011",
+        phone_number2="+10019385701",
         notes="first test contact"
     )
     app.contact.create(contact)

@@ -1,5 +1,7 @@
 from model.contact import Contact
 
+import re
+
 class ContactHelper(object):
 
     def __init__(self, app):
@@ -32,8 +34,15 @@ class ContactHelper(object):
 
     def open_contact_edit_page_by_index(self, index):
         wd = self.app.wd
+        self.app.open_home_page()
         # click first group edit link
         wd.find_element_by_xpath("//table//tr[{0}]//td[8]//a".format(index + 2)).click()
+
+    def open_contact_view_page_by_index(self, index):
+        wd = self.app.wd
+        self.app.open_home_page()
+        # click first group edit link
+        wd.find_element_by_xpath("//table//tr[{0}]//td[7]//a".format(index + 2)).click()
 
     def modify_first_contact(self, new_contact_data):
         self.modify_contact_by_index(0, new_contact_data)
@@ -113,9 +122,39 @@ class ContactHelper(object):
             wd = self.app.wd
             self.app.open_home_page()
             self.contact_cache = []
-            for element in wd.find_elements_by_css_selector('tr[name="entry"]'):
-                id = element.find_element_by_name("selected[]").get_attribute("id")
-                last_name = element.find_elements_by_css_selector("td")[1].text
-                first_name = element.find_elements_by_css_selector("td")[2].text
-                self.contact_cache.append(Contact(id=id, first_name=first_name, last_name=last_name))
+            for row in wd.find_elements_by_css_selector('tr[name="entry"]'):
+                cells = row.find_elements_by_tag_name("td")
+                id = cells[0].find_element_by_tag_name("input").get_attribute("value")
+                last_name = cells[1].text
+                first_name = cells[2].text
+                all_phones = cells[5].text.splitlines()
+                self.contact_cache.append(Contact(id=id, first_name=first_name, last_name=last_name,
+                                                  home_phone_number=all_phones[0], mobile_phone_number=all_phones[1],
+                                                  work_phone_number=all_phones[2], phone_number2=all_phones[3]))
         return list(self.contact_cache)
+
+    def get_contact_info_from_edit_page(self, index):
+        wd = self.app.wd
+        self.open_contact_edit_page_by_index(index)
+        first_name = wd.find_element_by_name("firstname").get_attribute("value")
+        last_name = wd.find_element_by_name("lastname").get_attribute("value")
+        id = wd.find_element_by_name("id").get_attribute("value")
+        home_phone_number = wd.find_element_by_name("home").get_attribute("value")
+        work_phone_number = wd.find_element_by_name("work").get_attribute("value")
+        mobile_phone_number = wd.find_element_by_name("mobile").get_attribute("value")
+        phone_number2 = wd.find_element_by_name("phone2").get_attribute("value")
+        return Contact(first_name=first_name, last_name=last_name, id=id, home_phone_number=home_phone_number,
+                       mobile_phone_number=mobile_phone_number, work_phone_number=work_phone_number,
+                       phone_number2=phone_number2)
+
+
+    def get_contact_from_view_page(self, index):
+        wd = self.app.wd
+        self.open_contact_view_page_by_index(index)
+        text = wd.find_element_by_id("content").text
+        home_phone_number = re.search("H: (.*)", text).group(1)
+        work_phone_number = re.search("W: (.*)", text).group(1)
+        mobile_phone_number = re.search("M: (.*)", text).group(1)
+        phone_number2 = re.search("P: (.*)", text).group(1)
+        return Contact(home_phone_number=home_phone_number, mobile_phone_number=mobile_phone_number,
+                       work_phone_number=work_phone_number, phone_number2=phone_number2)
