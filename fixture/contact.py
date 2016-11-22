@@ -197,3 +197,29 @@ class ContactHelper(object):
         phone_number2 = re.search("P: (.*)", text).group(1)
         return Contact(home_phone_number=home_phone_number, mobile_phone_number=mobile_phone_number,
                        work_phone_number=work_phone_number, phone_number2=phone_number2)
+
+    def show_contacts_of_group(self, group):
+        wd = self.app.wd
+        self.app.open_home_page()
+        el = wd.find_element_by_xpath("//select[@name='group']//option[@value='{0}']".format(group.id))
+        if not el.is_selected():
+            el.click()
+
+    def add_to_group(self, contact, group):
+        wd = self.app.wd
+        self.app.open_home_page()
+        self.select_contact_by_id(contact.id)
+        # select group to add into
+        el = wd.find_element_by_xpath("//select[@name='to_group']//option[@value='{0}']".format(group.id))
+        if not el.is_selected():
+            el.click()
+        # press add to group button
+        wd.find_element_by_css_selector("input[name='add']").click()
+        self.return_to_home_page()
+
+    def del_from_group(self, contact, group):
+        wd = self.app.wd
+        self.show_contacts_of_group(group)
+        self.select_contact_by_id(contact.id)
+        wd.find_element_by_css_selector("input[name='remove']").click()
+        self.return_to_home_page()
