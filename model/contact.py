@@ -43,6 +43,7 @@ class Contact(object):
         return (self.id is None or other.id is None or self.id == other.id) and (self.first_name == other.first_name \
                or self.last_name == other.last_name)
 
+    @classmethod
     def id_or_max(self, cn):
         if cn.id:
             return int(cn.id)
