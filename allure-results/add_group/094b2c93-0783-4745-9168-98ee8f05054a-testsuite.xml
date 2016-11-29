@@ -1,0 +1,262 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1480445546772" stop="1480445557545">
+  <name>test.test_add_group</name>
+  <test-cases>
+    <test-case start="1480445546772" status="passed" stop="1480445550990">
+      <name>test_add_group_data[None:name1:header1:footer1]</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3604-MainThread"/>
+        <label name="host" value="WIN-IN7CSTTD39S"/>
+      </labels>
+      <steps>
+        <step start="1480445549798" status="passed" stop="1480445549801">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1480445549801" status="passed" stop="1480445550979">
+          <name>When I add a group None:name1:header1:footer1 to the list</name>
+          <title>When I add a group None:name1:header1:footer1 to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1480445550979" status="passed" stop="1480445550989">
+          <name>Then the new group list is equal to the old list with the added group</name>
+          <title>Then the new group list is equal to the old list with the added group</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+      <attachments/>
+    </test-case>
+    <test-case start="1480445550990" status="passed" stop="1480445551865">
+      <name>test_add_group_data[None:name2:header2:footer2]</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3604-MainThread"/>
+        <label name="host" value="WIN-IN7CSTTD39S"/>
+      </labels>
+      <steps>
+        <step start="1480445551074" status="passed" stop="1480445551077">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1480445551077" status="passed" stop="1480445551861">
+          <name>When I add a group None:name2:header2:footer2 to the list</name>
+          <title>When I add a group None:name2:header2:footer2 to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1480445551861" status="passed" stop="1480445551864">
+          <name>Then the new group list is equal to the old list with the added group</name>
+          <title>Then the new group list is equal to the old list with the added group</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+      <attachments/>
+    </test-case>
+    <test-case start="1480445551865" status="passed" stop="1480445552760">
+      <name>test_add_group_json[None:::]</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3604-MainThread"/>
+        <label name="host" value="WIN-IN7CSTTD39S"/>
+      </labels>
+      <steps>
+        <step start="1480445551951" status="passed" stop="1480445551963">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1480445551963" status="passed" stop="1480445552757">
+          <name>When I add a group None::: to the list</name>
+          <title>When I add a group None::: to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1480445552757" status="passed" stop="1480445552760">
+          <name>Then the new group list is equal to the old list with the added group</name>
+          <title>Then the new group list is equal to the old list with the added group</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+      <attachments/>
+    </test-case>
+    <test-case start="1480445552761" status="passed" stop="1480445553720">
+      <name>test_add_group_json[None:name2:headerT hA1o   x8eE:footeryx &lt;uBB`X] n1 N@N]</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3604-MainThread"/>
+        <label name="host" value="WIN-IN7CSTTD39S"/>
+      </labels>
+      <steps>
+        <step start="1480445552876" status="passed" stop="1480445552881">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1480445552881" status="passed" stop="1480445553717">
+          <name>When I add a group None:name2:headerT hA1o   x8eE:footeryx &lt;uBB`X] n1 N@N to the list</name>
+          <title>When I add a group None:name2:headerT hA1o   x8eE:footeryx &lt;uBB`X] n1 N@N to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1480445553717" status="passed" stop="1480445553720">
+          <name>Then the new group list is equal to the old list with the added group</name>
+          <title>Then the new group list is equal to the old list with the added group</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+      <attachments/>
+    </test-case>
+    <test-case start="1480445553721" status="passed" stop="1480445554692">
+      <name>test_add_group_json[None:name s :headerWj4Ta.t):footerZ 0`P^NOqmv}+:]</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3604-MainThread"/>
+        <label name="host" value="WIN-IN7CSTTD39S"/>
+      </labels>
+      <steps>
+        <step start="1480445553795" status="passed" stop="1480445553798">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1480445553798" status="passed" stop="1480445554687">
+          <name>When I add a group None:name s :headerWj4Ta.t):footerZ 0`P^NOqmv}+: to the list</name>
+          <title>When I add a group None:name s :headerWj4Ta.t):footerZ 0`P^NOqmv}+: to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1480445554687" status="passed" stop="1480445554692">
+          <name>Then the new group list is equal to the old list with the added group</name>
+          <title>Then the new group list is equal to the old list with the added group</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+      <attachments/>
+    </test-case>
+    <test-case start="1480445554696" status="failed" stop="1480445555751">
+      <name>test_add_group_json[None:name,J$&lt;gaZuS:header zG:footer:8Xs$E zW=,6]</name>
+      <failure>
+        <message>AssertionError: assert [211:name1:he..., 218:::, ...] == [211:name1:hea..., 218:::, ...]
+  At index 56 diff: None:name,J$&lt;gaZuS:header zG:footer:8Xs$E zW=,6 != 274:name,J$:header zG:footer:8Xs$E zW=,6
+  Use -v to get the full diff</message>
+        <stack-trace>app = &lt;fixture.application.Application object at 0x036BB4F0&gt;
+db = &lt;fixture.db.DbFixture object at 0x03618110&gt;
+json_groups = None:name,J$&lt;gaZuS:header zG:footer:8Xs$E zW=,6, check_ui = False
+
+    def test_add_group_json(app, db, json_groups, check_ui):
+        group = json_groups
+        with pytest.allure.step('Given a group list'):
+            old_groups = db.get_group_list()
+        with pytest.allure.step('When I add a group %s to the list' % group):
+            app.group.create(group)
+        with pytest.allure.step('Then the new group list is equal to the old list with the added group'):
+            new_groups = db.get_group_list()
+            old_groups.append(group)
+&gt;           assert sorted(old_groups, key=group.id_or_max) == sorted(new_groups, key=group.id_or_max)
+E           assert [211:name1:he..., 218:::, ...] == [211:name1:hea..., 218:::, ...]
+E             At index 56 diff: None:name,J$&lt;gaZuS:header zG:footer:8Xs$E zW=,6 != 274:name,J$:header zG:footer:8Xs$E zW=,6
+E             Use -v to get the full diff
+
+test\test_add_group.py:30: AssertionError</stack-trace>
+      </failure>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3604-MainThread"/>
+        <label name="host" value="WIN-IN7CSTTD39S"/>
+      </labels>
+      <steps>
+        <step start="1480445554802" status="passed" stop="1480445554805">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1480445554805" status="passed" stop="1480445555707">
+          <name>When I add a group None:name,J$&lt;gaZuS:header zG:footer:8Xs$E zW=,6 to the list</name>
+          <title>When I add a group None:name,J$&lt;gaZuS:header zG:footer:8Xs$E zW=,6 to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1480445555707" status="failed" stop="1480445555711">
+          <name>Then the new group list is equal to the old list with the added group</name>
+          <title>Then the new group list is equal to the old list with the added group</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+      <attachments/>
+    </test-case>
+    <test-case start="1480445555752" status="passed" stop="1480445556619">
+      <name>test_add_group_json[None:name. d:header ":footery _(Kh~Hl ]</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3604-MainThread"/>
+        <label name="host" value="WIN-IN7CSTTD39S"/>
+      </labels>
+      <steps>
+        <step start="1480445555808" status="passed" stop="1480445555812">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1480445555812" status="passed" stop="1480445556615">
+          <name>When I add a group None:name. d:header ":footery _(Kh~Hl  to the list</name>
+          <title>When I add a group None:name. d:header ":footery _(Kh~Hl  to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1480445556615" status="passed" stop="1480445556619">
+          <name>Then the new group list is equal to the old list with the added group</name>
+          <title>Then the new group list is equal to the old list with the added group</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+      <attachments/>
+    </test-case>
+    <test-case start="1480445556620" status="passed" stop="1480445557545">
+      <name>test_add_group_json[None:name  xBvmd:header]|db ^UJK^7nMoZ   :footer&gt;b9^KLZ{:a8]</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3604-MainThread"/>
+        <label name="host" value="WIN-IN7CSTTD39S"/>
+      </labels>
+      <steps>
+        <step start="1480445556698" status="passed" stop="1480445556705">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1480445556705" status="passed" stop="1480445557542">
+          <name>When I add a group None:name  xBvmd:header]|db ^UJK^7nMoZ   :footer&gt;b9^KLZ{:a8 to the list</name>
+          <title>When I add a group None:name  xBvmd:header]|db ^UJK^7nMoZ   :footer&gt;b9^KLZ{:a8 to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1480445557542" status="passed" stop="1480445557545">
+          <name>Then the new group list is equal to the old list with the added group</name>
+          <title>Then the new group list is equal to the old list with the added group</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+      <attachments/>
+    </test-case>
+  </test-cases>
+  <labels/>
+</ns0:test-suite>

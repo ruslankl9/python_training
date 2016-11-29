@@ -1,0 +1,238 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1480445591693" stop="1480445632614">
+  <name>test.test_add_contact</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1480445591693" status="passed" stop="1480445600435">
+      <name>test_add_contact_data[None:FirstName1:LastName1]</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3784-MainThread"/>
+        <label name="host" value="WIN-IN7CSTTD39S"/>
+      </labels>
+      <steps>
+        <step start="1480445596701" status="passed" stop="1480445596704">
+          <title>Given a contact list</title>
+          <name>Given a contact list</name>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480445596704" status="passed" stop="1480445600429">
+          <title>When I add the contact to the list</title>
+          <name>When I add the contact to the list</name>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480445600429" status="passed" stop="1480445600435">
+          <title>Then the new contact list is equal to the old list with the added contact</title>
+          <name>Then the new contact list is equal to the old list with the added contact</name>
+          <steps/>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+    </test-case>
+    <test-case start="1480445600436" status="passed" stop="1480445605129">
+      <name>test_add_contact_data[None:FirstName2:LastName2]</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3784-MainThread"/>
+        <label name="host" value="WIN-IN7CSTTD39S"/>
+      </labels>
+      <steps>
+        <step start="1480445601549" status="passed" stop="1480445601557">
+          <title>Given a contact list</title>
+          <name>Given a contact list</name>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480445601557" status="passed" stop="1480445605125">
+          <title>When I add the contact to the list</title>
+          <name>When I add the contact to the list</name>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480445605125" status="passed" stop="1480445605129">
+          <title>Then the new contact list is equal to the old list with the added contact</title>
+          <name>Then the new contact list is equal to the old list with the added contact</name>
+          <steps/>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+    </test-case>
+    <test-case start="1480445605130" status="passed" stop="1480445607034">
+      <name>test_add_contact_json[None::]</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3784-MainThread"/>
+        <label name="host" value="WIN-IN7CSTTD39S"/>
+      </labels>
+      <steps>
+        <step start="1480445606158" status="passed" stop="1480445606161">
+          <title>Given a contact list</title>
+          <name>Given a contact list</name>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480445606161" status="passed" stop="1480445607030">
+          <title>When I add the contact to the list</title>
+          <name>When I add the contact to the list</name>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480445607030" status="passed" stop="1480445607034">
+          <title>Then the new contact list is equal to the old list with the added contact</title>
+          <name>Then the new contact list is equal to the old list with the added contact</name>
+          <steps/>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+    </test-case>
+    <test-case start="1480445607035" status="passed" stop="1480445612153">
+      <name>test_add_contact_json[None:First NamelMjGDl:Last Namec y9lHl j]</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3784-MainThread"/>
+        <label name="host" value="WIN-IN7CSTTD39S"/>
+      </labels>
+      <steps>
+        <step start="1480445608083" status="passed" stop="1480445608086">
+          <title>Given a contact list</title>
+          <name>Given a contact list</name>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480445608086" status="passed" stop="1480445612149">
+          <title>When I add the contact to the list</title>
+          <name>When I add the contact to the list</name>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480445612149" status="passed" stop="1480445612153">
+          <title>Then the new contact list is equal to the old list with the added contact</title>
+          <name>Then the new contact list is equal to the old list with the added contact</name>
+          <steps/>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+    </test-case>
+    <test-case start="1480445612154" status="passed" stop="1480445617235">
+      <name>test_add_contact_json[None:First Name:Last Name 0o]</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3784-MainThread"/>
+        <label name="host" value="WIN-IN7CSTTD39S"/>
+      </labels>
+      <steps>
+        <step start="1480445613284" status="passed" stop="1480445613296">
+          <title>Given a contact list</title>
+          <name>Given a contact list</name>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480445613296" status="passed" stop="1480445617229">
+          <title>When I add the contact to the list</title>
+          <name>When I add the contact to the list</name>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480445617229" status="passed" stop="1480445617235">
+          <title>Then the new contact list is equal to the old list with the added contact</title>
+          <name>Then the new contact list is equal to the old list with the added contact</name>
+          <steps/>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+    </test-case>
+    <test-case start="1480445617236" status="passed" stop="1480445622163">
+      <name>test_add_contact_json[None:First Nameacil k9:Last Name4gSc0Fyb1VySI eqP79]</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3784-MainThread"/>
+        <label name="host" value="WIN-IN7CSTTD39S"/>
+      </labels>
+      <steps>
+        <step start="1480445618340" status="passed" stop="1480445618343">
+          <title>Given a contact list</title>
+          <name>Given a contact list</name>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480445618343" status="passed" stop="1480445622159">
+          <title>When I add the contact to the list</title>
+          <name>When I add the contact to the list</name>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480445622159" status="passed" stop="1480445622163">
+          <title>Then the new contact list is equal to the old list with the added contact</title>
+          <name>Then the new contact list is equal to the old list with the added contact</name>
+          <steps/>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+    </test-case>
+    <test-case start="1480445622164" status="passed" stop="1480445627307">
+      <name>test_add_contact_json[None:First NameW sL:Last Nametmk2AUDnnGK]</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3784-MainThread"/>
+        <label name="host" value="WIN-IN7CSTTD39S"/>
+      </labels>
+      <steps>
+        <step start="1480445623283" status="passed" stop="1480445623287">
+          <title>Given a contact list</title>
+          <name>Given a contact list</name>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480445623287" status="passed" stop="1480445627303">
+          <title>When I add the contact to the list</title>
+          <name>When I add the contact to the list</name>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480445627303" status="passed" stop="1480445627307">
+          <title>Then the new contact list is equal to the old list with the added contact</title>
+          <name>Then the new contact list is equal to the old list with the added contact</name>
+          <steps/>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+    </test-case>
+    <test-case start="1480445627308" status="passed" stop="1480445632614">
+      <name>test_add_contact_json[None:First Name6wBgFU :Last NameDvAsaw]</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3784-MainThread"/>
+        <label name="host" value="WIN-IN7CSTTD39S"/>
+      </labels>
+      <steps>
+        <step start="1480445628468" status="passed" stop="1480445628471">
+          <title>Given a contact list</title>
+          <name>Given a contact list</name>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480445628471" status="passed" stop="1480445632610">
+          <title>When I add the contact to the list</title>
+          <name>When I add the contact to the list</name>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480445632610" status="passed" stop="1480445632614">
+          <title>Then the new contact list is equal to the old list with the added contact</title>
+          <name>Then the new contact list is equal to the old list with the added contact</name>
+          <steps/>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

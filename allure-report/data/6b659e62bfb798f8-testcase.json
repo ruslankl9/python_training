@@ -1,0 +1,89 @@
+{
+  "uid" : "6b659e62bfb798f8",
+  "name" : "test_add_contact_json[None:First Name:Last Name 0o]",
+  "title" : "Test add contact json [None:First Name:Last Name 0o]",
+  "time" : {
+    "start" : 1480445612154,
+    "stop" : 1480445617235,
+    "duration" : 5081
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "b9ead142ed243171",
+    "name" : "test.test_add_contact",
+    "title" : "Test add contact"
+  },
+  "steps" : [ {
+    "name" : "Given a contact list",
+    "title" : "Given a contact list",
+    "time" : {
+      "start" : 1480445613284,
+      "stop" : 1480445613296,
+      "duration" : 12
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I add the contact to the list",
+    "title" : "When I add the contact to the list",
+    "time" : {
+      "start" : 1480445613296,
+      "stop" : 1480445617229,
+      "duration" : 3933
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the new contact list is equal to the old list with the added contact",
+    "title" : "Then the new contact list is equal to the old list with the added contact",
+    "time" : {
+      "start" : 1480445617229,
+      "stop" : 1480445617235,
+      "duration" : 6
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "3784-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "WIN-IN7CSTTD39S"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_add_contact"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

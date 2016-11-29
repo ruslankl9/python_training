@@ -1,0 +1,89 @@
+{
+  "uid" : "e75e80bf60a5859c",
+  "name" : "test_add_group_json[None:name  xBvmd:header]|db ^UJK^7nMoZ   :footer>b9^KLZ{:a8]",
+  "title" : "Test add group json [None:name  xBvmd:header]|db ^UJK^7nMoZ   :footer>b9^KLZ{:a8]",
+  "time" : {
+    "start" : 1480445556620,
+    "stop" : 1480445557545,
+    "duration" : 925
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3666fe8c52925d3",
+    "name" : "test.test_add_group",
+    "title" : "Test add group"
+  },
+  "steps" : [ {
+    "name" : "Given a group list",
+    "title" : "Given a group list",
+    "time" : {
+      "start" : 1480445556698,
+      "stop" : 1480445556705,
+      "duration" : 7
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I add a group None:name  xBvmd:header]|db ^UJK^7nMoZ   :footer>b9^KLZ{:a8 to the list",
+    "title" : "When I add a group None:name  xBvmd:header]|db ^UJK^7nMoZ   :footer>b9^KLZ{:a8 to the list",
+    "time" : {
+      "start" : 1480445556705,
+      "stop" : 1480445557542,
+      "duration" : 837
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the new group list is equal to the old list with the added group",
+    "title" : "Then the new group list is equal to the old list with the added group",
+    "time" : {
+      "start" : 1480445557542,
+      "stop" : 1480445557545,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "WIN-IN7CSTTD39S"
+  }, {
+    "name" : "thread",
+    "value" : "3604-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_add_group"
+  } ],
+  "parameters" : [ ]
+}

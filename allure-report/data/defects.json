@@ -1,0 +1,29 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "ebf5c9e488b80129",
+      "failure" : {
+        "message" : "AssertionError: assert [211:name1:he..., 218:::, ...] == [211:name1:hea..., 218:::, ...]\n  At index 56 diff: None:name,J$<gaZuS:header zG:footer:8Xs$E zW=,6 != 274:name,J$:header zG:footer:8Xs$E zW=,6\n  Use -v to get the full diff",
+        "stackTrace" : "app = <fixture.application.Application object at 0x036BB4F0>\ndb = <fixture.db.DbFixture object at 0x03618110>\njson_groups = None:name,J$<gaZuS:header zG:footer:8Xs$E zW=,6, check_ui = False\n\n    def test_add_group_json(app, db, json_groups, check_ui):\n        group = json_groups\n        with pytest.allure.step('Given a group list'):\n            old_groups = db.get_group_list()\n        with pytest.allure.step('When I add a group %s to the list' % group):\n            app.group.create(group)\n        with pytest.allure.step('Then the new group list is equal to the old list with the added group'):\n            new_groups = db.get_group_list()\n            old_groups.append(group)\n>           assert sorted(old_groups, key=group.id_or_max) == sorted(new_groups, key=group.id_or_max)\nE           assert [211:name1:he..., 218:::, ...] == [211:name1:hea..., 218:::, ...]\nE             At index 56 diff: None:name,J$<gaZuS:header zG:footer:8Xs$E zW=,6 != 274:name,J$:header zG:footer:8Xs$E zW=,6\nE             Use -v to get the full diff\n\ntest\\test_add_group.py:30: AssertionError"
+      },
+      "testCases" : [ {
+        "uid" : "27a1981fbaf0e0b3",
+        "name" : "test_add_group_json[None:name,J$<gaZuS:header zG:footer:8Xs$E zW=,6]",
+        "title" : "Test add group json [None:name,J$<gaZuS:header zG:footer:8Xs$E zW=,6]",
+        "time" : {
+          "start" : 1480445554696,
+          "stop" : 1480445555751,
+          "duration" : 1055
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ ]
+  } ]
+}

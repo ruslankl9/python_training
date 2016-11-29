@@ -2,42 +2,140 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ddd02e8-c962-4c1a-92eb-d270907358b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_config_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_config_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_config_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_config_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_config_5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_config_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_config_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_config_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_config_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_report_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_report_10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_report_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_report_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_report_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_report_5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_report_6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_report_7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_report_8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_report_9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/flash/clippy.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/img/allure-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/img/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/img/tests_passed.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/font-awesome/4.2.0/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/font-awesome/4.2.0/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/css/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/27a1981fbaf0e0b3-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/297bf24897388f39-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/2f458b080b291d50-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/40ef9f29d6306d13-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/51e311a2981f9a0f-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/53c2c2fe5b5cc8f6-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/5a73fdd00dc13c7b-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/6b659e62bfb798f8-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/6d8c48d59f2516fd-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/8134c2059a613b1c-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/8d4606ce94a4cb09-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/9de6814f8ca5755f-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/be92dc71f7f79738-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/behaviors.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/c20715d2431d04d9-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/c6b3cae2b087d906-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/defects.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/e417994c41475f49-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/e75e80bf60a5859c-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/e8b8e5a0e815409e-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/ec5143feb7e99fff-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/environment.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/graph.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/plugins.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/report.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/timeline.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/total.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/widgets.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/xunit.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/charts/charts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/charts/duration.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/charts/pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/charts/severityMap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/charts/timeline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/controllers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/directives.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/filters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/overview/widgets.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/pane/pane.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/pluginApi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/scrollfix/scrollfix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/services.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/table/table.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/testcase/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/testcase/provider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/testcase/statusSwitcher.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/testcase/testcase.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/behaviors/en.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/behaviors/ptbr.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/behaviors/ru.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/behaviors/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/behaviors/tab.tpl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/defects/en.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/defects/ptbr.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/defects/ru.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/defects/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/defects/tab.tpl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/environment/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/graph/en.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/graph/ptbr.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/graph/ru.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/graph/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/graph/tab.tpl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/timeline/en.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/timeline/ptbr.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/timeline/ru.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/timeline/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/timeline/tab.tpl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/total/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/xunit/en.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/xunit/ptbr.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/xunit/ru.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/xunit/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/xunit/tab.tpl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/xunit/testrun.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/xunit/testsuite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/templates/overview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/templates/overview/defects.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/templates/overview/keyValue.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/templates/overview/statistics.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/templates/overview/total.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/templates/table/table.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/templates/testcase/attachment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/templates/testcase/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/templates/testcase/status-switcher.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/templates/testcase/testcase.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/templates/testcase/testcaseView.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/translations/en.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/translations/ptbr.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/translations/ru.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/vendor/filesize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/vendor/localstorageprovider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/vendor/messageformat/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/vendor/messageformat/ptbr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/vendor/messageformat/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/Sortable/1.2.0/Sortable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/Sortable/1.2.0/ng-sortable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/angular-loading-bar/0.6.0/loading-bar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/angular-translate-interpolation-messageformat/0.1.2/angular-translate-interpolation-messageformat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/angular-translate-loader-partial/2.6.0/angular-translate-loader-partial.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/angular-translate/2.6.0/angular-translate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/angular-ui-bootstrap/0.11.2/ui-bootstrap-tpls.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/angular-ui-router/0.2.13/angular-ui-router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/angularjs/1.2.26/angular-animate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/angularjs/1.2.26/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/d3js/3.4.11/d3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/font-awesome/4.2.0/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/highlightjs/8.2-1/highlight.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/jquery/2.1.1/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/messageformat.js/0.1.4/messageformat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-results/add_contact/e19c6726-ee04-4eb7-bfa5-c25d6703406d-testsuite.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-results/add_group/094b2c93-0783-4745-9168-98ee8f05054a-testsuite.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-results/del_contact/74a7faa7-abd3-4b36-9632-3dd3e88e9d9d-testsuite.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-results/del_group/dcdd6848-ab5b-4a86-80d0-c9a7d62dff5b-testsuite.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-results/modify_contact/ed249383-adf9-4c02-8c46-b5a2b518ca64-testsuite.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_add_contact.py" afterPath="$PROJECT_DIR$/test/test_add_contact.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_add_group.py" afterPath="$PROJECT_DIR$/test/test_add_group.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_del_contact.py" afterPath="$PROJECT_DIR$/test/test_del_contact.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_del_group.py" afterPath="$PROJECT_DIR$/test/test_del_group.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_modify_contact.py" afterPath="$PROJECT_DIR$/test/test_modify_contact.py" />
     </list>
     <ignored path="python_training.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,116 +154,7 @@
     <favorites_list name="python_training" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="group.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/group.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contacts.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bdd/contacts.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_modify_contact.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_modify_contact.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact_steps.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bdd/contact_steps.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="79" column="10" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/contact.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-481">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="group.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/generator/group.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact_scenarios.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bdd/contact_scenarios.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <element signature="e#1#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="group_scenarios.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bdd/group_scenarios.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#1#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_del_contact.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_del_contact.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="25" column="78" selection-start-line="15" selection-start-column="8" selection-end-line="25" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -201,13 +190,8 @@
         <option value="$PROJECT_DIR$/target.json" />
         <option value="$PROJECT_DIR$/model/group.py" />
         <option value="$PROJECT_DIR$/test/test_db_matches_ui.py" />
-        <option value="$PROJECT_DIR$/test/test_del_group.py" />
-        <option value="$PROJECT_DIR$/test/test_add_group.py" />
         <option value="$PROJECT_DIR$/fixture/db.py" />
-        <option value="$PROJECT_DIR$/test/test_add_contact.py" />
-        <option value="$PROJECT_DIR$/test/test_del_contact.py" />
         <option value="$PROJECT_DIR$/test/test_modify_group.py" />
-        <option value="$PROJECT_DIR$/test/test_modify_contact.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/check_db_connection.py" />
         <option value="$PROJECT_DIR$/fixture/orm.py" />
@@ -223,6 +207,11 @@
         <option value="$PROJECT_DIR$/bdd/contacts.feature" />
         <option value="$PROJECT_DIR$/bdd/contact_steps.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/test/test_del_group.py" />
+        <option value="$PROJECT_DIR$/test/test_add_group.py" />
+        <option value="$PROJECT_DIR$/test/test_add_contact.py" />
+        <option value="$PROJECT_DIR$/test/test_del_contact.py" />
+        <option value="$PROJECT_DIR$/test/test_modify_contact.py" />
       </list>
     </option>
   </component>
@@ -268,38 +257,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="python_training">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="python_training">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="screenshots">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jenkins">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="python_training">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="bdd">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -850,7 +807,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480278104458</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Добавлены скриншоты Jenkins">
+      <created>1480440393080</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1480440393080</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -957,7 +921,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Выделен вспомогательный класс Contact" />
     <MESSAGE value="Исправления в модуле test_add_contact.py" />
     <MESSAGE value="Перенос тестовых модулей в пакет test" />
     <MESSAGE value="Общая фикстура для всех тестов в файле conftest.py" />
@@ -982,7 +945,8 @@
     <MESSAGE value="Реализованы тесты BDD для групп" />
     <MESSAGE value="Реализованы тесты BDD для контактов" />
     <MESSAGE value="add requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="add requirements.txt" />
+    <MESSAGE value="Добавлены скриншоты Jenkins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены скриншоты Jenkins" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -993,7 +957,7 @@
           <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="94" />
+      <option name="time" value="95" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1242,34 +1206,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_add_group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="93" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bdd/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_del_group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_add_contact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="101" />
           <folding />
         </state>
       </provider>
@@ -1281,22 +1221,6 @@
           <folding>
             <element signature="e#1#41#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_del_contact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="25" column="78" selection-start-line="15" selection-start-column="8" selection-end-line="25" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bdd/groups.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1328,22 +1252,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bdd/contacts.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_modify_contact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bdd/contact_steps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -1362,20 +1270,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/generator/group.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_modify_contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="101" selection-start-line="18" selection-start-column="101" selection-end-line="18" selection-end-column="101" />
+          <folding>
+            <element signature="e#24#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_del_contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="62" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="62" />
+          <folding>
+            <element signature="e#24#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bdd/contacts.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="74" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bdd/groups.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="73" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_del_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="60" />
+          <folding>
+            <element signature="e#24#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_add_contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+          <folding>
+            <element signature="e#24#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_add_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="e#24#53#0" expanded="true" />
           </folding>
         </state>
       </provider>

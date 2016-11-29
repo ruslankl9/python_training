@@ -1,0 +1,89 @@
+{
+  "uid" : "c20715d2431d04d9",
+  "name" : "test_add_contact_json[None:First Nameacil k9:Last Name4gSc0Fyb1VySI eqP79]",
+  "title" : "Test add contact json [None:First Nameacil k9:Last Name4gSc0Fyb1VySI eqP79]",
+  "time" : {
+    "start" : 1480445617236,
+    "stop" : 1480445622163,
+    "duration" : 4927
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "b9ead142ed243171",
+    "name" : "test.test_add_contact",
+    "title" : "Test add contact"
+  },
+  "steps" : [ {
+    "name" : "Given a contact list",
+    "title" : "Given a contact list",
+    "time" : {
+      "start" : 1480445618340,
+      "stop" : 1480445618343,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I add the contact to the list",
+    "title" : "When I add the contact to the list",
+    "time" : {
+      "start" : 1480445618343,
+      "stop" : 1480445622159,
+      "duration" : 3816
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the new contact list is equal to the old list with the added contact",
+    "title" : "Then the new contact list is equal to the old list with the added contact",
+    "time" : {
+      "start" : 1480445622159,
+      "stop" : 1480445622163,
+      "duration" : 4
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "3784-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "WIN-IN7CSTTD39S"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_add_contact"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

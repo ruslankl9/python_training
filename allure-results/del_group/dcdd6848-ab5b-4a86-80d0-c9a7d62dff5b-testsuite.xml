@@ -1,0 +1,41 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1480445571874" stop="1480445575631">
+  <name>test.test_del_group</name>
+  <test-cases>
+    <test-case start="1480445571874" status="passed" stop="1480445575631">
+      <name>test_delete_some_group</name>
+      <steps>
+        <step start="1480445575006" status="passed" stop="1480445575011">
+          <title>Given a non-empty group list</title>
+          <name>Given a non-empty group list</name>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480445575011" status="passed" stop="1480445575011">
+          <title>Given a random group from the list</title>
+          <name>Given a random group from the list</name>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480445575011" status="passed" stop="1480445575618">
+          <title>When I delete the group (id=271) from the list</title>
+          <name>When I delete the group (id=271) from the list</name>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480445575618" status="passed" stop="1480445575630">
+          <title>Then the new group list is equal to the old group without deleted group</title>
+          <name>Then the new group list is equal to the old group without deleted group</name>
+          <steps/>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4552-MainThread"/>
+        <label name="host" value="WIN-IN7CSTTD39S"/>
+      </labels>
+    </test-case>
+  </test-cases>
+  <labels/>
+</ns0:test-suite>

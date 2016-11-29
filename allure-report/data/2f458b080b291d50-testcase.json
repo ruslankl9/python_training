@@ -1,0 +1,119 @@
+{
+  "uid" : "2f458b080b291d50",
+  "name" : "test_modify_some_contact_first_name",
+  "title" : "Test modify some contact first name",
+  "time" : {
+    "start" : 1480445648454,
+    "stop" : 1480445654753,
+    "duration" : 6299
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 5
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "861d42f1ab2f3572",
+    "name" : "test.test_modify_contact",
+    "title" : "Test modify contact"
+  },
+  "steps" : [ {
+    "name" : "Given a non-empty contact list",
+    "title" : "Given a non-empty contact list",
+    "time" : {
+      "start" : 1480445653622,
+      "stop" : 1480445653627,
+      "duration" : 5
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Given a random contact from the list",
+    "title" : "Given a random contact from the list",
+    "time" : {
+      "start" : 1480445653627,
+      "stop" : 1480445653627,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Given a contact with first_name",
+    "title" : "Given a contact with first_name",
+    "time" : {
+      "start" : 1480445653627,
+      "stop" : 1480445653627,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I modify the contact from the list",
+    "title" : "When I modify the contact from the list",
+    "time" : {
+      "start" : 1480445653627,
+      "stop" : 1480445654746,
+      "duration" : 1119
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the new contact list is equal to the old list with modified contact",
+    "title" : "Then the new contact list is equal to the old list with modified contact",
+    "time" : {
+      "start" : 1480445654746,
+      "stop" : 1480445654753,
+      "duration" : 7
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "WIN-IN7CSTTD39S"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_modify_contact"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "3444-MainThread"
+  } ],
+  "parameters" : [ ]
+}

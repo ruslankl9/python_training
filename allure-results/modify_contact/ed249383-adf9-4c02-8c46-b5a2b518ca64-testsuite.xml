@@ -1,0 +1,47 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1480445648454" stop="1480445654753">
+  <name>test.test_modify_contact</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1480445648454" status="passed" stop="1480445654753">
+      <name>test_modify_some_contact_first_name</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3444-MainThread"/>
+        <label name="host" value="WIN-IN7CSTTD39S"/>
+      </labels>
+      <attachments/>
+      <steps>
+        <step start="1480445653622" status="passed" stop="1480445653627">
+          <title>Given a non-empty contact list</title>
+          <name>Given a non-empty contact list</name>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1480445653627" status="passed" stop="1480445653627">
+          <title>Given a random contact from the list</title>
+          <name>Given a random contact from the list</name>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1480445653627" status="passed" stop="1480445653627">
+          <title>Given a contact with first_name</title>
+          <name>Given a contact with first_name</name>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1480445653627" status="passed" stop="1480445654746">
+          <title>When I modify the contact from the list</title>
+          <name>When I modify the contact from the list</name>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1480445654746" status="passed" stop="1480445654753">
+          <title>Then the new contact list is equal to the old list with modified contact</title>
+          <name>Then the new contact list is equal to the old list with modified contact</name>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
