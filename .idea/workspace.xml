@@ -2,7 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ddd02e8-c962-4c1a-92eb-d270907358b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_config_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_config_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_config_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_config_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_config_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_bdd_tests_report_9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_config_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_config_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_config_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_config_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_report_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_report_10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_report_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_report_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_report_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_report_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_report_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_report_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_report_8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/jenkins/addressbook_tests_report_9.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python_training.iws" />
@@ -75,12 +109,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="group.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/generator/group.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,18 +150,6 @@
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#1#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="group_steps.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bdd/group_steps.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="51" selection-end-column="70" />
-              <folding>
-                <element signature="e#1#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -247,21 +281,11 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="test">
+            <PATH_ELEMENT USER_OBJECT="screenshots">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="python_training">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="model">
+            <PATH_ELEMENT USER_OBJECT="jenkins">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -298,7 +322,7 @@
       <recent name="C:\git\python_training\fixture" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in contact_scenarios.py">
+  <component name="RunManager" selected="Python.group">
     <configuration default="false" name="py.test in group_scenarios.py" type="tests" factoryName="py.test" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -321,30 +345,6 @@
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
       <option name="USE_KEYWORD" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="py.test in test_add_new_contact" type="tests" factoryName="py.test" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python_training" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/bdd/contact_scenarios.py" />
-      <option name="keywords" value="test_add_new_contact" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="true" />
       <method />
     </configuration>
     <configuration default="false" name="py.test in contact_scenarios.py" type="tests" factoryName="py.test" temporary="true">
@@ -417,6 +417,23 @@
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
       <option name="USE_KEYWORD" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="group" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/generator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python_training" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generator/group.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -555,18 +572,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in group_scenarios.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_add_new_contact" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in contact_scenarios.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_delete_contact" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_contact" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in contact_scenarios.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_delete_contact" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_contact" />
+      <item index="4" class="java.lang.String" itemvalue="Python.group" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in contact_scenarios.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_contact" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_delete_contact" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in group_scenarios.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_add_new_contact" />
+        <item index="0" class="java.lang.String" itemvalue="Python.group" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in contact_scenarios.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_contact" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_delete_contact" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in group_scenarios.py" />
       </list>
     </recent_temporary>
   </component>
@@ -826,7 +843,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480276192550</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="add requirements.txt">
+      <created>1480278104458</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1480278104458</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -865,7 +889,7 @@
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58018255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -933,7 +957,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Выделен класс для работы с группами" />
     <MESSAGE value="Выделен вспомогательный класс Contact" />
     <MESSAGE value="Исправления в модуле test_add_contact.py" />
     <MESSAGE value="Перенос тестовых модулей в пакет test" />
@@ -958,7 +981,8 @@
     <MESSAGE value="Реализованы тесты добавления контакта в / удаления из группы" />
     <MESSAGE value="Реализованы тесты BDD для групп" />
     <MESSAGE value="Реализованы тесты BDD для контактов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализованы тесты BDD для контактов" />
+    <MESSAGE value="add requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="add requirements.txt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1065,13 +1089,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-255">
           <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator/group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="38" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1202,7 +1219,7 @@
         <state relative-caret-position="1870">
           <caret line="112" column="37" selection-start-line="112" selection-start-column="37" selection-end-line="112" selection-end-column="37" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#33#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1220,7 +1237,7 @@
         <state relative-caret-position="391">
           <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="98" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1262,7 +1279,7 @@
         <state relative-caret-position="233">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="51" selection-end-column="70" />
           <folding>
-            <element signature="e#1#41#0" expanded="true" />
+            <element signature="e#1#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1350,6 +1367,16 @@
         <state relative-caret-position="102">
           <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator/group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
