@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ddd02e8-c962-4c1a-92eb-d270907358b5" name="Default" comment="Реализованы тесты RF для групп">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rf/contact_scenarios.robot" />
+    <list default="true" id="8ddd02e8-c962-4c1a-92eb-d270907358b5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rf/AddressBook.py" afterPath="$PROJECT_DIR$/rf/AddressBook.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_contact_info.py" afterPath="$PROJECT_DIR$/test/test_contact_info.py" />
     </list>
     <ignored path="python_training.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,13 +93,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_add_group.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_add_group.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_add_group.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" column="97" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="97" />
               <folding>
                 <element signature="e#24#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_contact_info.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_contact_info.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,7 +155,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/fixture/session.py" />
         <option value="$PROJECT_DIR$/test/test_phones.py" />
-        <option value="$PROJECT_DIR$/test/test_contact_info.py" />
         <option value="$PROJECT_DIR$/fixture/application.py" />
         <option value="$PROJECT_DIR$/data/add_group.py" />
         <option value="$PROJECT_DIR$/data/groups.py" />
@@ -179,6 +189,7 @@
         <option value="$PROJECT_DIR$/rf/group_scenarios.robot" />
         <option value="$PROJECT_DIR$/rf/AddressBook.py" />
         <option value="$PROJECT_DIR$/rf/contact_scenarios.robot" />
+        <option value="$PROJECT_DIR$/test/test_contact_info.py" />
       </list>
     </option>
   </component>
@@ -274,7 +285,7 @@
       <recent name="C:\git\python_training\fixture" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_add_contact.py">
+  <component name="RunManager" selected="Python tests.py.test in test_contact_info.py">
     <configuration default="false" name="py.test in contact_scenarios.py" type="tests" factoryName="py.test" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -297,30 +308,6 @@
       <option name="params" value="--check_ui" />
       <option name="USE_PARAM" value="true" />
       <option name="USE_KEYWORD" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="py.test in test_delete_contact" type="tests" factoryName="py.test" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python_training" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/bdd/contact_scenarios.py" />
-      <option name="keywords" value="test_delete_contact" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="true" />
       <method />
     </configuration>
     <configuration default="false" name="py.test in test_modify_contact" type="tests" factoryName="py.test" temporary="true">
@@ -382,6 +369,30 @@
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="testToRun" value="$PROJECT_DIR$/test/test_add_contact.py" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in test_contact_info.py" type="tests" factoryName="py.test" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python_training" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/test/test_contact_info.py" />
       <option name="keywords" value="" />
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
@@ -524,18 +535,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in contact_scenarios.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_delete_contact" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_contact" />
-      <item index="3" class="java.lang.String" itemvalue="Python.group" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_add_contact.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_contact" />
+      <item index="2" class="java.lang.String" itemvalue="Python.group" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_add_contact.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_contact_info.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_add_contact.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python.group" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in contact_scenarios.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_contact" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_delete_contact" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_contact_info.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_add_contact.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python.group" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in contact_scenarios.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_contact" />
       </list>
     </recent_temporary>
   </component>
@@ -823,13 +834,17 @@
       <option name="project" value="LOCAL" />
       <updated>1480448738154</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Реализованы тесты RF для контактов">
+      <created>1480450302780</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1480450302780</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_contact_scenarios_py - 2016.11.28 at 00h 22m 28s.xml">
-      <configuration name="py.test in contact_scenarios.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_contact_scenarios_py - 2016.11.28 at 00h 48m 18s.xml">
       <configuration name="py.test in contact_scenarios.py" configurationId="tests" />
     </history-entry>
@@ -844,6 +859,9 @@
     </history-entry>
     <history-entry file="py_test_in_test_add_contact_py - 2016.11.30 at 01h 10m 41s.xml">
       <configuration name="py.test in test_add_contact.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_contact_info_py - 2016.11.30 at 01h 22m 31s.xml">
+      <configuration name="py.test in test_contact_info.py" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_test_delete_contact - 2016.11.28 at 00h 31m 56s.xml">
       <configuration name="py.test in test_delete_contact" configurationId="tests" />
@@ -862,7 +880,7 @@
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58018255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -930,7 +948,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Общая фикстура для всех тестов в файле conftest.py" />
     <MESSAGE value="Реализованы недостающие тесты и вспомогательные методы" />
     <MESSAGE value="Валидация фикстуры перед каждым тестом" />
     <MESSAGE value="Добавлена проверка текущего состояния сессии" />
@@ -955,7 +972,8 @@
     <MESSAGE value="Добавлены скриншоты Jenkins" />
     <MESSAGE value="Добавлены отчеты Allure для адресной книги" />
     <MESSAGE value="Реализованы тесты RF для групп" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализованы тесты RF для групп" />
+    <MESSAGE value="Реализованы тесты RF для контактов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Реализованы тесты RF для контактов" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1078,13 +1096,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_contact_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/pymysql/converters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1162,16 +1173,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/contact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1870">
-          <caret line="112" column="37" selection-start-line="112" selection-start-column="37" selection-end-line="112" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#33#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1343,6 +1344,24 @@
           <caret line="14" column="97" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="97" />
           <folding>
             <element signature="e#24#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_contact_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
